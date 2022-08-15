@@ -1,4 +1,4 @@
-FROM ghcr.io/alchemicalartist/gitlab-mirror-action:latest
+FROM chrisldenton/alpine-git
 WORKDIR /root
 COPY entrypoint.sh /entrypoint.sh
 COPY cred-helper.sh /cred-helper.sh
